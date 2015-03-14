@@ -4,11 +4,10 @@ This component based on jQuery essential plugins:
 * [jQuery Cookie](https://github.com/carhartl/jquery-cookie)
 * [jQuery Easing](http://gsgd.co.uk/sandbox/jquery/easing/)
 * [jQuery Mouse Wheel](https://github.com/jquery/jquery-mousewheel)
-* [jQuery Scroll-To](https://github.com/individual11/Scroll-To)
+* [jQuery Scroll To](https://github.com/flesler/jquery.scrollTo)
 
 
 ## Installation
-
 
 ### Composer
 

@@ -1,7 +1,7 @@
 {
     "name": "uran1980/yii2-jquery-essential",
     "description": "An Yii2 jQuery Essential assets component.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "type": "yii2-extension",
     "keywords": [
         "yii2-jquery-essential",
@@ -14,7 +14,7 @@
         "jQuery Easing"
     ],
     "homepage": "https://github.com/uran1980/yii2-jquery-essential",
-    "time": "2015-03-07",
+    "time": "2015-03-14 21:40",
     "license": "MIT",
     "authors": [
         {
@@ -34,7 +34,8 @@
         "bower-asset/jquery-cookie": "*",
         "bower-asset/jquery.easing": "*",
         "bower-asset/jquery-mousewheel": "*",
-        "bower-asset/jquery-form": "*"
+        "bower-asset/jquery-form": "*",
+        "bower-asset/jquery.scrollTo": "*"
     },
     "autoload": {
         "psr-4": {
