@@ -1,15 +1,19 @@
 {
-    "name": "uran1980/yii2-scroll-to",
-    "description": "An Yii2 Scroll To asset based on [Scroll To](https://github.com/individual11/Scroll-To) jQuery plugin.",
+    "name": "uran1980/yii2-jquery-essential",
+    "description": "An Yii2 jQuery Essential assets component.",
     "version": "0.0.1",
     "type": "yii2-extension",
     "keywords": [
-        "yii2-scroll-to",
+        "yii2-jquery-essential",
         "yii2",
-        "scroll to",
-        "jQuery"
+        "assets",
+        "jQuery Essential Plugins",
+        "jQuery Cookie",
+        "jQuery MouseWheel",
+        "jQuery Scroll To",
+        "jQuery Easing"
     ],
-    "homepage": "https://github.com/uran1980/yii2-scroll-to",
+    "homepage": "https://github.com/uran1980/yii2-jquery-essential",
     "time": "2015-03-07",
     "license": "MIT",
     "authors": [
@@ -21,15 +25,20 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/uran1980/yii2-scroll-to/issues",
-        "source": "https://github.com/uran1980/yii2-scroll-to"
+        "issues": "https://github.com/uran1980/yii2-jquery-essential/issues",
+        "source": "https://github.com/uran1980/yii2-jquery-essential"
     },
     "require": {
-        "yiisoft/yii2": "~2"
+        "yiisoft/yii2": "~2",
+
+        "bower-asset/jquery-cookie": "*",
+        "bower-asset/jquery.easing": "*",
+        "bower-asset/jquery-mousewheel": "*",
+        "bower-asset/jquery-form": "*"
     },
     "autoload": {
         "psr-4": {
-            "uran1980\\yii\\assets\\scrollTo\\": ""
+            "uran1980\\yii\\assets\\jQueryEssential\\": ""
         }
     }
 }

@@ -1,6 +1,10 @@
-# Yii2 Scroll To
+# Yii2 jQuery Essential
 
-This component based on [Scroll-To](https://github.com/individual11/Scroll-To) jQuery plugin.
+This component based on jQuery essential plugins:
+* [jQuery Cookie](https://github.com/carhartl/jquery-cookie)
+* [jQuery Easing](http://gsgd.co.uk/sandbox/jquery/easing/)
+* [jQuery Mouse Wheel](https://github.com/jquery/jquery-mousewheel)
+* [jQuery Scroll-To](https://github.com/individual11/Scroll-To)
 
 
 ## Installation
@@ -13,13 +17,13 @@ The preferred way to install this extension is through [Composer](http://getcomp
 Either run
 
 ```
-php composer.phar require uran1980/yii2-scroll-to "dev-master"
+php composer.phar require uran1980/yii2-jquery-essential "dev-master"
 ```
 
 or add
 
 ```
-"uran1980/yii2-scroll-to": "dev-master"
+"uran1980/yii2-jquery-essential": "dev-master"
 ```
 
 to the require section of your ```composer.json```
@@ -37,7 +41,7 @@ class YourAppAsset extends \yii\web\AssetBundle
 {
     ...
     public $depends = [
-        'uran1980\yii\assets\scrollTo\ScrollToAsset',
+        'uran1980\yii\assets\jQueryEssential\jQueryEssentialAsset',
         ...
     ];
 }

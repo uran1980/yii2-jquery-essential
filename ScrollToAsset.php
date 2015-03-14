@@ -1,13 +1,16 @@
 <?php
 
-namespace uran1980\yii\assets\scrollTo;
+namespace uran1980\yii\assets\jQueryEssential;
 
 use yii\web\AssetBundle;
 
 class ScrollToAsset extends AssetBundle
 {
-    public $sourcePath = '@uran/yii/assets/scrollTo/assets';
+    public $sourcePath = '@uran/yii/assets/jQueryEssential/assets';
     public $js = [
         'js/scrollTo.min.js',
+    ];
+    public $depends = [
+        'uran1980\yii\assets\jQueryEssential\JqueryEasingAsset',
     ];
 }
