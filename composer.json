@@ -1,7 +1,7 @@
 {
     "name": "uran1980/yii2-jquery-essential",
     "description": "An Yii2 jQuery Essential assets component.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "yii2-extension",
     "keywords": [
         "yii2-jquery-essential",

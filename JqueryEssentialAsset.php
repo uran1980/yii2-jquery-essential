@@ -2,9 +2,7 @@
 
 namespace uran1980\yii\assets\jQueryEssential;
 
-use yii\web\AssetBundle;
-
-class JqueryEssentialAsset extends AssetBundle
+class JqueryEssentialAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@uran1980/yii/assets/jQueryEssential/assets';
     public $js = [

@@ -2,9 +2,7 @@
 
 namespace uran1980\yii\assets\jQueryEssential;
 
-use yii\web\AssetBundle;
-
-class ScrollToAsset extends AssetBundle
+class ScrollToAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@uran1980/yii/assets/jQueryEssential/assets';
     public $js = [

@@ -2,7 +2,7 @@
 
 namespace uran1980\yii\assets\jQueryEssential;
 
-class JqueryMouseWheelAsset extends AssetBundle
+class JqueryMouseWheelAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@bower/jquery-mousewheel';
     public $js = [
