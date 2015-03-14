@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class ScrollToAsset extends AssetBundle
 {
-    public $sourcePath = '@uran/yii/assets/jQueryEssential/assets';
+    public $sourcePath = '@uran1980/yii/assets/jQueryEssential/assets';
     public $js = [
         'js/scrollTo.min.js',
     ];
