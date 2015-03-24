@@ -10,5 +10,6 @@ class JqueryEssentialAsset extends \yii\web\AssetBundle
         'uran1980\yii\assets\jQueryEssential\JqueryEasingAsset',
         'uran1980\yii\assets\jQueryEssential\JqueryMouseWheelAsset',
         'uran1980\yii\assets\jQueryEssential\JqueryScrollToAsset',
+        'uran1980\yii\assets\jQueryEssential\JqueryFormAsset',
     ];
 }
