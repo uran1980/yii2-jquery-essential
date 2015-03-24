@@ -5,6 +5,7 @@ This component based on jQuery essential plugins:
 * [jQuery Easing](http://gsgd.co.uk/sandbox/jquery/easing/)
 * [jQuery Mouse Wheel](https://github.com/jquery/jquery-mousewheel)
 * [jQuery Scroll To](https://github.com/flesler/jquery.scrollTo)
+* [jQuery Form](https://github.com/malsup/form/)
 
 
 ## Installation
