@@ -6,7 +6,7 @@ class JqueryFormAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@bower/jquery-form';
     public $js = [
-        'jquery.form.js',
+        'src/jquery.form.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
